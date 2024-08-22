@@ -13,4 +13,17 @@ foreach (string letter in hiddenWord)
 
 Console.WriteLine("\nletter...now");
 
-Console.ReadLine();
+while (true)
+{
+string guess = Console.ReadLine();
+
+
+if(word.Contains(guess[0]))
+{
+    Console.WriteLine("wowie");
+}
+else
+{
+    Console.WriteLine("shit");
+}
+}
