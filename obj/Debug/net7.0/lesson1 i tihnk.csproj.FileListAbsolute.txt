@@ -1,0 +1,14 @@
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.AssemblyInfoInputs.cache
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.AssemblyInfo.cs
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.csproj.CoreCompileInputs.cache
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\bin\Debug\net7.0\lesson1 i tihnk.exe
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\bin\Debug\net7.0\lesson1 i tihnk.deps.json
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\bin\Debug\net7.0\lesson1 i tihnk.runtimeconfig.json
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\bin\Debug\net7.0\lesson1 i tihnk.dll
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\bin\Debug\net7.0\lesson1 i tihnk.pdb
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.dll
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\refint\lesson1 i tihnk.dll
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.pdb
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\lesson1 i tihnk.genruntimeconfig.cache
+c:\Users\zion.falk\Programming2\lesson1 i tihnk\obj\Debug\net7.0\ref\lesson1 i tihnk.dll
