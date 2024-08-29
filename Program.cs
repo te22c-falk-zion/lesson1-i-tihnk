@@ -43,6 +43,7 @@ if(word.Contains(guess[0]))
 {
     Console.Clear();
     Console.WriteLine($"wowie\nLives:{lives-wrongGuesses.Count - 1}");
+    wrongGuesses.ForEach(Console.WriteLine);
 
     for (int i = 0; i < word.Length; i++)
     {
@@ -58,6 +59,7 @@ else
     Console.Clear();
     Console.WriteLine($"shit\nlives:{lives-wrongGuesses.Count - 1}");
     wrongGuesses.Add(guess);
+    wrongGuesses.ForEach(Console.WriteLine);
 }
 
 
