@@ -42,7 +42,7 @@ while (guess.Length == 0)
 if(word.Contains(guess[0]))
 {
     Console.Clear();
-    Console.WriteLine($"wowie\nLives:{lives-wrongGuesses.Count}");
+    Console.WriteLine($"wowie\nLives:{lives-wrongGuesses.Count - 1}");
 
     for (int i = 0; i < word.Length; i++)
     {
@@ -56,10 +56,8 @@ if(word.Contains(guess[0]))
 else
 {
     Console.Clear();
-    Console.WriteLine($"shit\nlives:{lives-wrongGuesses.Count}");
+    Console.WriteLine($"shit\nlives:{lives-wrongGuesses.Count - 1}");
     wrongGuesses.Add(guess);
-    
-
 }
 
 
@@ -67,7 +65,7 @@ else
 }
 
 
-if (wrongGuesses.Count > lives)
+if (wrongGuesses.Count == lives)
 {
     Console.Clear();
     Console.WriteLine("Game over, lost");
