@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj": {}
+    "c:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj": {
+    "c:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj",
+        "projectUniqueName": "c:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj",
         "projectName": "lesson1 i tihnk",
-        "projectPath": "C:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj",
+        "projectPath": "c:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\lesson1 i tihnk.csproj",
         "packagesPath": "C:\\Users\\zion.falk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\obj\\",
+        "outputPath": "c:\\Users\\zion.falk\\Programming2\\lesson1 i tihnk\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

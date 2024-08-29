@@ -14,7 +14,10 @@ static string[] MakeUnderscores(string word)
 
 
 
-string word = "LIMBUS COMPANY";
+Random r = new Random();
+string[] words = {"security","nest","solo","account","broken","innocent","manufacturer","provoke","lily","finished"};
+
+string word = words[r.Next(words.Length)].ToUpper();
 List<string> wrongGuesses = new();
 
 string[] hiddenWord = MakeUnderscores(word);
@@ -22,34 +25,59 @@ string[] hiddenWord = MakeUnderscores(word);
 Console.WriteLine("hangman...");
 Console.WriteLine("\nletter...now");
 
-int lives = 5;
+int lives = 10;
 while (wrongGuesses.Count < lives && string.Join("", hiddenWord) != word)
 {
 
 Console.WriteLine(string.Join(" ", hiddenWord));
 string guess = Console.ReadLine().ToUpper();
 
+while (guess.Length == 0)
+{
+    Console.Clear();
+    Console.WriteLine("Input a valid letter");
+    guess = Console.ReadLine().ToUpper();
+}
+
 if(word.Contains(guess[0]))
 {
-    Console.WriteLine("wowie");
+    Console.Clear();
+    Console.WriteLine($"wowie\nLives:{lives-wrongGuesses.Count}");
 
     for (int i = 0; i < word.Length; i++)
     {
         if(word[i] == guess[0])
         {
-            hiddenWord[i] = guess;
+            hiddenWord[i] = guess[0].ToString();
         }
     }
 
-//     int pos = word.IndexOf(guess[0]);
-//     hiddenWord[pos] = guess;
 }
 else
 {
-    Console.WriteLine("shit");
+    Console.Clear();
+    Console.WriteLine($"shit\nlives:{lives-wrongGuesses.Count}");
     wrongGuesses.Add(guess);
-}
+    
+
 }
 
-Console.WriteLine("\ndone");
-Console.ReadLine();
+
+
+}
+
+
+if (wrongGuesses.Count > lives)
+{
+    Console.Clear();
+    Console.WriteLine("Game over, lost");
+    Console.WriteLine($"the word was {word}");
+    Console.ReadLine();
+}
+else if(string.Join("", hiddenWord) == word)
+{
+    Console.Clear();
+    Console.WriteLine(word);
+    Console.WriteLine("\nWin yay!");
+    Console.ReadLine();
+}
